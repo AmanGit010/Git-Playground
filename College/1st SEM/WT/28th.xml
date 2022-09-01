@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employee SYSTEM "employees.dtd">
+<employee>
+    <empname>
+    Amanjot Singh
+    </empname>
+    <empno>
+    3290
+    </empno>
+    <salary>
+    Rs.10,00,000/- p.m
+    </salary>
+    <department>
+    Tech Department
+    </department>
+</employee>
