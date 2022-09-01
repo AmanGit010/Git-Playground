@@ -1,3 +1,0 @@
-D:/Code/2nd SEM/DSA/Clion Saves/cmake-build-debug/CMakeFiles/Clion_Saves.dir
-D:/Code/2nd SEM/DSA/Clion Saves/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Code/2nd SEM/DSA/Clion Saves/cmake-build-debug/CMakeFiles/rebuild_cache.dir

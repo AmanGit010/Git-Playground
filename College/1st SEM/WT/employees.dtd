@@ -1,5 +1,0 @@
-<!ELEMENT employee (empname,empno,salary,department)>
-<!ELEMENT empname (#PCDATA)>
-<!ELEMENT empno (#PCDATA)>
-<!ELEMENT salary (#PCDATA)>
-<!ELEMENT department (#PCDATA)>
