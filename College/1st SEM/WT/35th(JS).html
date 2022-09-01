@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Operators</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <h1 style="background-color: rgba(55, 97, 235, 0.342); border: 2px black solid; text-align: center">
+            Arithmetic Operators in Javascript
+        </h1>
+        <div style="text-align: center">
+            <h2 id="num1">Number 1 &nbsp; = &nbsp;</h2>
+            <h2 id="num2">Number 2 &nbsp; = &nbsp;</h2>
+            <h2 id="add">Number 1 + Number 2 &nbsp; = &nbsp;</h2>
+            <h2 id="subs">Number 1 - Number 2 &nbsp; = &nbsp;</h2>
+            <h2 id="multi">Number 1 * Number 2 &nbsp; = &nbsp;</h2>
+            <h2 id="div">Number 1 / Number 2 &nbsp; = &nbsp;</h2>
+            <h2 id="mod">Number 1 % Number 2 &nbsp; = &nbsp;</h2>
+        </div>
+        <h1 style="background-color: burlywood; border: 2px black solid; text-align: center">
+            Logical Operators in Javascript
+        </h1>
+        <div style="text-align: center">
+            <h2 id="num3">Number A &nbsp; = &nbsp;</h2>
+            <h2 id="num4">Number B &nbsp; = &nbsp;</h2>
+            <h2 id="and">Number A & Number B &nbsp; = &nbsp;</h2>
+            <h2 id="or">Number A OR Number B &nbsp; = &nbsp;</h2>
+            <h2 id="not1">NOT Number A &nbsp; = &nbsp;</h2>
+            <h2 id="not2">NOT Number B &nbsp; = &nbsp;</h2>
+
+        </div>
+        <script>
+            var input1 = prompt("Enter the Number 1 :");
+            var input2 = prompt("Enter the Number 2 :");
+            let add = parseInt(input1) + parseInt(input2);
+            let subs = input1 - input2;
+            let multi = input1 * input2;
+            let div = input1 / input2;
+            let mod = input1 % input2;
+            document.getElementById("num1").innerHTML += input1;
+            document.getElementById("num2").innerHTML += input2;
+            document.write(input2);
+            document.getElementById("add").innerHTML += add;
+            document.getElementById("subs").innerHTML += subs;
+            document.getElementById("multi").innerHTML += multi;
+            document.getElementById("div").innerHTML += div;
+            document.getElementById("mod").innerHTML += mod;
+        </script>
+                <script>
+                    var input3 = prompt("Choose 1 or 0");
+                    var input4 = prompt("Choose 1 or 0");
+                    let and = input3 && input4;
+                    let or = input3 || input4;
+                    let not1 = !(input3);
+                    let not2 = !(input4);
+                    document.getElementById("num3").innerHTML += input3;
+                    document.getElementById("num4").innerHTML += input4;
+                    document.getElementById("and").innerHTML += and;
+                    document.getElementById("or").innerHTML += or;
+                    document.getElementById("not1").innerHTML += not1;
+                    document.getElementById("not2").innerHTML += not2;
+                </script>
+    </body>
+</html>

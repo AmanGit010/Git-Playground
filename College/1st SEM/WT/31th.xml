@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE note SYSTEM "31th.xsd">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Category">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="name" type="xs:string"/>
+      <xs:element name="price" type="xs:string"/>
+      <xs:element name="calories" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

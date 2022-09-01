@@ -1,0 +1,79 @@
+body{
+  background-color: lightgrey;
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+  }
+
+  h2 {
+    color: rgb(18, 209, 66)
+    text-alig
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(192, 43, 43);
+  }
+
+
+  .kil{
+    width: 20%;
+    background-color: rgba(240, 37, 37, 0.808);
+    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    left: 70px;
+    top: 10px;
+    margin: 5px;
+    border-radius: 15px  ;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .kil>img{ display:none; margin-bottom: 20px;}
+  .kil:hover img{ display:block;}
+  .txt{
+    height: 200px; 
+    width: 40%;
+    background-color: rgba(221, 66, 66, 0.808);
+    float:left;
+    position: relative;
+    left: 70px;
+    top: 180px;
+    
+    margin: 5px;
+    border-radius: 15px  ;
+    text-align: center;
+  }
+
+
+  .kil:hover{transform:scale(1.2)}
+
+  .txt:hover{transform:scale(1.2)}
+  

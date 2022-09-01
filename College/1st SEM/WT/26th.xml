@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <Food_menu>
+    <Category>
+        <name>
+        Shahi Paneer
+        </name>
+        <price>
+        250
+        </price>
+        <calories>
+        400
+        </calories>
+
+        <name>
+        Rajma
+        </name>
+        <price>
+        150
+        </price>
+        <calories>
+        80
+        </calories>
+    </Category>
+ </Food_menu>

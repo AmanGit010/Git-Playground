@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 37</title>
+    <style>
+      body {
+        background-image: url(https://4kwallpapers.com/images/walls/thumbs_2t/1432.jpg) ;
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  background-size: cover;
+      }
+      #wish {
+        text-shadow: 2px 2px 2px rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        font-size: 80px;
+        text-align: center;
+        padding: 200px 0px;
+      }
+      #time {
+        text-shadow: 2px 2px 2px white;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="time">Time :&nbsp;</h2>
+    <h1 id="wish"></h1>
+    <script>
+      const d = new Date();
+      let hour = d.getHours();
+      let min = d.getMinutes();
+
+      if (min < 10) {
+        // or min = min < 10 ? '0' + min : min;
+        min = "0" + min;
+      } else {
+        min = min + "";
+      }
+      var time = d.getHours() + ":" + min;
+      document.getElementById("time").innerHTML += time;
+      // Condition for Wish
+      if (hour < 5 || hour > 17) {
+        document.getElementById("wish").innerHTML = "It is Evening Do Something";
+      } else if (hour >= 5 && hour < 12) {
+        document.getElementById("wish").innerHTML = "It is Morning Do Something";
+      } else if (hour >= 12 || hour < 5) {
+        document.getElementById("wish").innerHTML = "It is Afternoon Do Something";
+      }
+    </script>
+  </body>
+</html>
